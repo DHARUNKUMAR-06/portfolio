@@ -471,7 +471,8 @@ const ContactSection = ({ downloadResume }) => {
       👤 Name: ${firstName} ${lastName}
       📧 Email: ${email}
       💼 Project Type: ${projectType}
-      📝 Message: ${message}Regards,${firstName}`
+      📝 Message: ${message}
+      Regards,${firstName}`
     );
 
     window.location.href = `mailto:bhuvandharun0419@gmail.com?subject=${subject}&body=${body}`;
