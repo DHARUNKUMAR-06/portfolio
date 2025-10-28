@@ -11,7 +11,7 @@ const App = () => {
     const resumeUrl = '/Dharunkumar_Resume_7_.pdf'
     const link = document.createElement('a')
     link.href = resumeUrl
-    link.download = 'Dharunkumar_V_FullStack_Developer_Resume.pdf'
+    link.download = 'Dharunkumar_V_Resume.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -203,9 +203,6 @@ const App = () => {
                 </a>
               ))}
             </div>
-            <p className="text-gray-500 text-sm">
-              © 2024 Dharunkumar V. All rights reserved.
-            </p>
           </motion.div>
         </div>
       </footer>
