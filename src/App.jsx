@@ -466,7 +466,12 @@ const ContactSection = ({ downloadResume }) => {
 
     const subject = encodeURIComponent(`New ${projectType} Inquiry from ${firstName} ${lastName}`);
     const body = encodeURIComponent(
-      `Hi Dharun,AYou have a new message from your portfolio contact form:👤 Name: ${firstName} ${lastName}📧 Email: ${email}💼 Project Type: ${projectType}📝 Message: ${message}Regards,${firstName}`
+      `Hi Dharun,
+      You have a new message from your portfolio contact form:
+      👤 Name: ${firstName} ${lastName}
+      📧 Email: ${email}
+      💼 Project Type: ${projectType}
+      📝 Message: ${message}Regards,${firstName}`
     );
 
     window.location.href = `mailto:bhuvandharun0419@gmail.com?subject=${subject}&body=${body}`;
